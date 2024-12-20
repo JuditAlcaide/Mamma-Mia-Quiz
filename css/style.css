@@ -147,22 +147,109 @@ h3 {
 }
 
 #resultado h2 {
-    font-family: "Playfair Display", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Anton", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 34px;
     font-weight: bold;
     color: #002888;
     background-color: #00F2FF;
     padding: 15px 20px;
-    display: inline-block;
+    display: inline;
     border-radius: 10px;
     margin: 10px auto;
+    border: 4px groove #002888;
+}
+
+.resultadoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contentR {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
 }
 
 #resultado img {
-    height: 600px;
+    height: 500px;
     width: 400px;
     border-radius: 10px;
-    display: block;
-    margin: 10px auto;
     max-width: 100%;
+}
+
+#descripcionPersonaje {
+    background-color: #00F2FF;
+    color: #002888;
+    font-family: "Playfair Display", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 15px 20px;
+    border: 4px dotted #002888;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4);
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        text-align: center;
+        height: 100%;
+    }
+
+    #inicio {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .introImg {
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    h3 {
+        width: 100%;
+        font-size: 22px;
+        padding: 10px 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    #preguntas {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .imgContainer img {
+        display: none;
+    }
+
+    #resultado img {
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        max-height: 60%;
+    }
 }
