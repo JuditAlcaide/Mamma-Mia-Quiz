@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mamma Mia's Test</title>
+    </head>
+    <body>
+        <div id="inicio">
+            <h1>¿Qué personaje del famoso trio de Mamma Mia eres?</h1>
+            <img class="introImg" src="https://i.postimg.cc/QxG1RdFz/dynamos.jpg" alt="Donna and the Dynamos"/>
+            <h3>¡Descubre si tu personalidad encaja más con Donna, Tanya o con Rosie!</h3>
+            <button id="comenzar">Comenzar</button>
+        </div>
+        <div id="preguntas" style="display: none;">
+            <div class="parentC" data-pregunta-id="1">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Cómo superas un desengaño amoroso?</p>
+                        <button class="opcion" data-respuesta="A">Llorando</button>
+                        <button class="opcion" data-respuesta="B">El alcohol siempre ayuda</button>
+                        <button class="opcion" data-respuesta="C">Comiendo chocolate</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/kgh4PTj5/donna-crying.jpg"/>
+                    </div>
+                </section>
+            </div>
+            <div class="parentC" data-pregunta-id="2" style="display: none;">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Cómo te ves dentro de 10 años?</p>
+                        <button class="opcion" data-respuesta="A">Viajando por el mundo</button>
+                        <button class="opcion" data-respuesta="B">Casada con un hombre rico que me trate como la reina que soy</button>
+                        <button class="opcion" data-respuesta="C">Teniendo mi propio negocio</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/HsRRG5wg/2.jpg"/>
+                    </div>
+                </section>
+            </div>
+            <div class="parentC" data-pregunta-id="3" style="display: none;">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Qué papel tienes dentro de tu grupo de amigas?</p>
+                        <button class="opcion" data-respuesta="A">Soy la reina del drama</button>
+                        <button class="opcion" data-respuesta="B">Soy la mami del grupo</button>
+                        <button class="opcion" data-respuesta="C">Soy la que siempre saca unas risas a las demás</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/ydLpLS12/3.jpg"/>
+                    </div>
+                </section>
+            </div>
+            <div class="parentC" data-pregunta-id="4" style="display: none;">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Sueles tomar el liderazgo en grupos?</p>
+                        <button class="opcion" data-respuesta="A">Si, me sale de forma natural</button>
+                        <button class="opcion" data-respuesta="B">No, pero sé que podría si quisiera</button>
+                        <button class="opcion" data-respuesta="C">No, me da vergüenza</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/yYgpTdwr/4.jpg"/>
+                    </div>
+                </section>
+            </div>
+            <div class="parentC" data-pregunta-id="5" style="display: none;">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Cómo te gustan los hombres?</p>
+                        <button class="opcion" data-respuesta="A">Que sean interesantes, me tiene que gustar su personalidad</button>
+                        <button class="opcion" data-respuesta="B">¿He dicho ya que quiero un hombre rico?</button>
+                        <button class="opcion" data-respuesta="C">Lejos de mí, gracias</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/vHJq2yy8/5.jpg"/>
+                    </div>
+                </section>
+            </div>
+            <div class="parentC" data-pregunta-id="6" style="display: none;">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Qué te gusta hacer en tu tiempo libre?</p>
+                        <button class="opcion" data-respuesta="A">Pasear por la naturaleza</button>
+                        <button class="opcion" data-respuesta="B">Ir de compras</button>
+                        <button class="opcion" data-respuesta="C">Hacer pasteles</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/dVGWzfQ2/nature.jpg"/>
+                    </div>
+                </section>
+            </div>
+            <div class="parentC" data-pregunta-id="7" style="display: none;">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Qué haces si ves una persona que te llama la atención?</p>
+                        <button class="opcion" data-respuesta="A">Le sonrío para que se acerque</button>
+                        <button class="opcion" data-respuesta="B">Tomo la iniciativa y le digo que estoy interesada</button>
+                        <button class="opcion" data-respuesta="C">Me quedo petrificada con cara de tonta</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/pdZsdnFy/7.jpg"/>
+                    </div>
+                </section>
+            </div>
+            <div class="parentC" data-pregunta-id="8" style="display: none;">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Qué ropa te sueles poner?</p>
+                        <button class="opcion" data-respuesta="A">Algo bonito pero cómodo</button>
+                        <button class="opcion" data-respuesta="B">Cualquier cosa que me permita presumir de cuerpazo</button>
+                        <button class="opcion" data-respuesta="C">No le doy mucha importancia la ropa, así que sobre todo básicos</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/fLRBSTcC/8.jpg"/>
+                    </div>
+                </section>
+            </div>
+            <div class="parentC" data-pregunta-id="9" style="display: none;">
+                <section class="content">
+                    <div class="questionC">
+                        <p>¿Qué canción de ABBA te gusta más?</p>
+                        <button class="opcion" data-respuesta="A">Mamma Mia</button>
+                        <button class="opcion" data-respuesta="B">Does Your Mother Know</button>
+                        <button class="opcion" data-respuesta="C">Take A Chance On Me</button>
+                    </div>
+                    <div class="imgContainer">
+                        <img src="https://i.postimg.cc/85cmPXGn/9.jpg"/>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <article id="resultado" style="display: none;">
+            <h2>¡Eres <span id="personaje"></span>!</h2>
+            <img id="imgPersonaje" src="">
+        </article>
+    </body>
+</html>
