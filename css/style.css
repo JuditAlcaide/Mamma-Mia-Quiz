@@ -88,7 +88,11 @@ h3 {
 
 .questionC {
     flex: 1;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .questionC p {
@@ -101,6 +105,9 @@ h3 {
     height: auto;
     border: 5px dotted #002888;
     font-weight: bold;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .imgContainer img {
@@ -111,8 +118,7 @@ h3 {
 }
 
 .opcion {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
     background-color: #81F7E9;
     color: #196E70;
     font-size: 18px;
@@ -129,4 +135,34 @@ h3 {
 .opcion:hover {
     background-color: #8FFFDF;
     transform: scale(1.05);
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#resultado h2 {
+    font-family: "Playfair Display", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #002888;
+    background-color: #00F2FF;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+#resultado img {
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
 }
