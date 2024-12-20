@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://i.postimg.cc/D00ddw3h/Ilustracio-n-sin-ti-tulo.jpg');
+    background-position: center;
+    background-size: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Anton", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: #002888;
+    width: 30%;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: "Playfair Display", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    color: #009699;
+    background-color: #81F7E9;
+    border: 5px dotted #00D2E0;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4);
+    width: 30%;
+    padding: 15px 20px;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.introImg {
+    border-radius: 10px;
+    max-height: auto;
+    height: 80%;
+}
+
+#comenzar {
+    background-color: #00F2FF;
+    color: #002888;
+    font-size: 18px;
+    font-family: "Anton", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4);
+}
+
+#comenzar:hover {
+    background-color: #00C7FF;
+    transform: scale(1.05);
+}
