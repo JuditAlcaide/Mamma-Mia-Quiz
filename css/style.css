@@ -53,6 +53,7 @@ h3 {
     cursor: pointer;
     transition: background-color 0.3s;
     box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4);
+    font-weight: bolder;
 }
 
 #comenzar:hover {
@@ -130,6 +131,7 @@ h3 {
     margin: 10px;
     box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4);
     transition: background-color 0.3s;
+    font-weight: bolder;
 }
 
 .opcion:hover {
@@ -252,10 +254,10 @@ h3 {
     }
 
     #resultado img {
-        max-width: 50%;
-        width: auto;
-        max-height: 60%;
-        height: auto;
+        max-width: 100%;
+        width: 50%;
+        max-height: 100%;
+        height: 60%;
     }
 
     #descripcionPersonaje {
@@ -269,6 +271,10 @@ h3 {
         width: 100%;
     }
 
+    body {
+        height: 100vh;
+    }
+
     .imgContainer {
         width: 50%;
         margin: 15px 20px;
@@ -277,6 +283,7 @@ h3 {
     .imgContainer img {
         width: auto;
         height: auto;
+        max-width: 300px;
         max-height: 300px;
         border-radius: 10px;
     }
