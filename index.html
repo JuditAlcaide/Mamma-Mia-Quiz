@@ -7,13 +7,14 @@
         <title>¿Qué personaje de Mamma Mia refleja tu personalidad?</title>
     </head>
     <body>
-        <div id="inicio">
+        <header id="inicio">
             <h1>¿Qué personaje de Mamma Mia refleja tu personalidad?</h1>
             <img class="introImg" src="https://i.postimg.cc/QxG1RdFz/dynamos.jpg" alt="Donna and the Dynamos"/>
             <h3>Este test está inspirado en los personajes de Mamma Mia. Responde unas preguntas rápidas y descubre quién eres en esta historia.</h3>
             <button id="comenzar">Comenzar</button>
-        </div>
-        <div id="preguntas" style="display: none;">
+        </header>
+
+        <main id="preguntas" style="display: none;">
             <div class="parentC" data-pregunta-id="1">
                 <section class="content">
                     <div class="questionC">
@@ -131,8 +132,8 @@
                     </div>
                 </section>
             </div>
-        </div>
-        <article id="resultado" style="display: none;">
+        </main>
+        <footer id="resultado" style="display: none;">
             <div class="resultadoContainer">
                 <h2>¡Eres <span id="personaje"></span>!</h2>
                 <div class="contentR">
@@ -140,7 +141,7 @@
                   <p id="descripcionPersonaje"></p>
                 </div>
             </div>
-        </article>
+        </footer>
         <script src="./js/script.js"></script>
     </body>
 </html>
